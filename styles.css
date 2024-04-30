@@ -6,16 +6,19 @@ body {
   margin: 0;
 }
 
-#todo-form {
-  border: 1px solid #ccc;
-  padding: 20px;
-  width: 300px;
+.container {
   text-align: center;
 }
 
+.center-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+
 #todo-input {
-  width: 100%;
-  padding: 8px;
+  width: calc(100% - 60px); /* Adjusted width */
+  padding: 8px 10px; /* Equal padding left and right */
   margin-bottom: 10px;
 }
 
